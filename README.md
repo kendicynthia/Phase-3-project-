@@ -1,18 +1,44 @@
 # SyriaTel-Customer-Churn-A-Machine-Learning-Classification-Approach
 
+## Introduction.
+Customer churn presents numerous challenges in the telecommunications industry, including market shifts, evolving preferences, and fierce competition. Syrialtel, like its counterparts, faces the task of retaining customers amidst these complexities. However, leveraging data analytics and machine learning offers a promising solution.
 
+By analyzing customer data, Syrialtel can uncover churn patterns and drivers using predictive modeling and segmentation. Machine learning enhances this process by identifying hidden correlations and predicting customer behavior accurately. With these insights, Syrialtel can implement personalized retention strategies, increasing customer retention and fostering sustainable growth.
 
+In summary, by embracing data-driven approaches, Syrialtel can understand churn challenges, develop effective strategies, and adapt to industry changes, ensuring long-term success.
+
+## Notebook Preview.
+1. Business Understanding
+2. Data Understanding
+3. Data Cleaning
+4. Exploratory Data Analysis
+5. Data Preparation
+6. Modelling
+7. Evaluation
+8. Conclusion
 
 ## 1. Business Understanding
-> **Problem statement:**
- >* SyriaTel, a company in the telecommunication industry, has approached us with a pressing challenge: high customer churn rates are leading to financial losses and decreased customer satisfaction. To combat this issue, SyriaTel aims to accurately predict which customers are likely to leave, allowing them to take proactive measures to retain them. However, traditional methods for predicting customer churn have proven to be unreliable, with high rates of false positives and false negatives.
+SyriaTel, like numerous telecommunications firms, grapples with the persistent challenge of high customer churn rates, which lead to significant financial setbacks and impede sustainable progress. Traditional churn prediction methods have proven futile, resulting in wasted resources and ineffective retention endeavors.
 
-  > In light of this, SyriaTel has tasked us with developing a machine learning classification model that can accurately predict customer churn based on historical usage patterns and demographic information. Our goal is to create a model that will help SyriaTel minimize financial losses and improve customer satisfaction.
+To confront this dilemma, SyriaTel can harness advanced analytics and machine learning. By delving into historical customer data, SyriaTel can unearth patterns in behavior, preferences, and usage that signal potential churn risks. Equipped with this foresight, SyriaTel can craft tailored retention strategies for individual customers, markedly diminishing churn rates and safeguarding revenue streams.
+
+Through proactive churn management, SyriaTel not only addresses immediate revenue concerns but also cultivates enduring customer loyalty and bolsters its competitive standing in the market. Investing in advanced analytics and machine learning not only optimizes customer retention but also distinguishes SyriaTel as an industry leader devoted to customer satisfaction and sustained growth.
+
+In essence, by leveraging advanced analytics and machine learning, SyriaTel can devise a robust churn prediction model that not only tackles immediate revenue loss but also fosters enduring customer relationships and propels sustainable business expansion.
+
+
+
+> **Problem statement:**
+ >* Customer churn poses a significant challenge for telecommunications companies like Syrialtel, despite offering competitive services. Understanding the underlying factors driving churn and implementing effective retention strategies is crucial. Leveraging data analytics and machine learning to dissect customer data is promising but requires accurate identification of churn predictors. The challenge is to utilize these techniques to develop proactive measures, enhance customer satisfaction, and drive sustainable business growth
+
 
 > **Objectives**:
- >* The primary objective of this project is to reduce customer churn, which is the loss of customers to competitors. By predicting which customers are at risk of leaving
- >* Identify which features/predictor variables affect the attrition of customers 
- >* Build 3 Classification models and evaluate the best one for classifying and predicting the churn rate
+ >* Develop a predictive classifier for SyrialTel Telecommunication to identify predictable patterns of customer churn.
+ >* Determine key factors influencing customer churn in the Telecommunication company.
+
+>* Assess classifier performance using metrics including accuracy, precision, recall, F1 score, and confusion matrix to gauge effectiveness.
+
+>* Offer actionable recommendations to SyrialTel to mitigate losses attributed to customer churn.
 
 > **Metric of Success**
 The project wil be considered a success if the classification model accurately identifies a high proportion of actual churners(High Recall) with a low number of false positive predictions(Low False Positive Rate) and demonstrates good generalization performance(Accuracy of 80% on unseen dataset).
