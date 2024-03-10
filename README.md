@@ -9,9 +9,12 @@
 
 
 > **Objectives**:
- >* The primary objective of this project is to reduce customer churn, which is the loss of customers to competitors. By predicting which customers are at risk of leaving
- >* Identify which features/predictor variables affect the attrition of customers 
- >* Build 3 Classification models and evaluate the best one for classifying and predicting the churn rate
+ >* Develop a predictive classifier for SyrialTel Telecommunication to identify predictable patterns of customer churn.
+ >* Determine key factors influencing customer churn in the Telecommunication company.
+
+>* Assess classifier performance using metrics including accuracy, precision, recall, F1 score, and confusion matrix to gauge effectiveness.
+
+>* Offer actionable recommendations to SyrialTel to mitigate losses attributed to customer churn.
 
 > **Metric of Success**
 The project wil be considered a success if the classification model accurately identifies a high proportion of actual churners(High Recall) with a low number of false positive predictions(Low False Positive Rate) and demonstrates good generalization performance(Accuracy of 80% on unseen dataset).
