@@ -111,7 +111,9 @@ Loyalty Programs: Implementing loyalty programs can be a valuable strategy for r
 ### Repository Guide ###
 
 Notebook: https://github.com/kendicynthia/Phase-3-project-
+
 Presentation: https://www.canva.com/design/DAF2hM-8df0/xQ0q1X95pxBiGicUGalp-w/edit?utm_content=DAF2hM-8df0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 Dataset: https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset?resource=download
 
 
