@@ -14,8 +14,7 @@ In summary, by embracing data-driven approaches, Syrialtel can understand churn 
 4. Exploratory Data Analysis
 5. Data Preparation
 6. Modelling
-7. Evaluation
-8. Conclusion
+7. Conclusion
 
 ## 1. Business Understanding
 SyriaTel, like numerous telecommunications firms, grapples with the persistent challenge of high customer churn rates, which lead to significant financial setbacks and impede sustainable progress. Traditional churn prediction methods have proven futile, resulting in wasted resources and ineffective retention endeavors.
@@ -88,8 +87,40 @@ The Churn classification problem is tackled with approximately 6 algorithms and 
  * Gradient Boosting model -known for its high accuracy and performance
  * Random Forest model - tends to reduce overfitting, which is a common issue with decision trees.
  * Decision Tree model
- * K-Nearest Neighbor model
  * Hyperparameter tuning of the Decision Tree model
  * Hyperparameter tuning of the Random Forest model
+
+Random forest and tunned random forest emerged as the top-performing model, boasting higher prediction accuracy and superior discrimination between outcomes. Notably, it exhibited a relatively high recall, effectively identifying most potential churners while minimizing false negatives. Additionally, it maintained a low false positive rate, minimizing erroneous flagging of customers unlikely to churn
+
+## 5. Conclusion.
+
+The random forest model achieved an accuracy of 0.95 and a weighted average of 0.95 in cross-validation (k=5) for predicting churn rate. Precision, recall, and f1-score for class 0 (not churned) were 0.97. For class 1 (churned), they were 0.82. The model performed well overall, with slightly better metrics for class 0 predictions. Overall, the random forest model proved to be the most effective for predicting churn rate.
+
+
+## 6. Reccomendations.
+
+Feature Engineering: Enhance prediction accuracy by introducing new features such as average daily/monthly charge or call duration. These insights can provide a deeper understanding of customer behavior and aid in churn prediction.
+
+Data Collection: Utilize customer satisfaction surveys to gather feedback on various aspects like network coverage and customer service. Additionally, collecting personal data such as age, gender, and marital status can facilitate the creation of tailored plans that better suit individual needs and preferences.
+
+Competitive Pricing: To ensure customer satisfaction and retention, it's imperative to offer competitive pricing and packages. By providing value for money, customers are more likely to remain loyal to the company rather than seeking alternatives.
+
+Loyalty Programs: Implementing loyalty programs can be a valuable strategy for reducing churn. By rewarding long-term customers with incentives and rewards, the company can foster a sense of loyalty and encourage customers to continue their relationship with the brand. These programs not only incentivize retention but also enhance customer satisfaction and engagement.
+
+
+### Repository Guide ###
+
+Notebook: https://github.com/kendicynthia/Phase-3-project-
+Presentation: https://www.canva.com/design/DAF2hM-8df0/xQ0q1X95pxBiGicUGalp-w/edit?utm_content=DAF2hM-8df0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Dataset: https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset?resource=download
+
+
+
+
+
+
+
+
+
 
 
